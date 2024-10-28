@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\joao_\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add lucide-react
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\joao_\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\joao_\AppData\Local\Programs\Python\Python312\;C:\Users\joao_\AppData\Local\Microsoft\WindowsApps;;C:\Users\joao_\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\joao_\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.3\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\joao_\projects\estudo\tailwindCss\tailwindCss\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "tailwindcss",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc -b && vite build",
+      "lint": "eslint .",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.3.1",
+      "react-dom": "^18.3.1",
+      "react-router-dom": "^6.26.0"
+    },
+    "devDependencies": {
+      "@eslint/js": "^9.8.0",
+      "@types/react": "^18.3.3",
+      "@types/react-dom": "^18.3.0",
+      "@vitejs/plugin-react": "^4.3.1",
+      "autoprefixer": "^10.4.20",
+      "eslint": "^9.8.0",
+      "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+      "eslint-plugin-react-refresh": "^0.4.9",
+      "globals": "^15.9.0",
+      "postcss": "^8.4.41",
+      "tailwindcss": "^3.4.9",
+      "typescript": "^5.5.3",
+      "typescript-eslint": "^8.0.0",
+      "vite": "^5.4.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
